@@ -1,0 +1,374 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="AutoViva: descubra o universo dos carros, tecnologias automotivas e dicas de segurança.">
+
+    <title>AutoViva - O Universo dos Carros</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Link para acessibilidade -->
+    <a class="skip-link" href="#conteudo">
+        Pular para o conteúdo principal
+    </a>
+
+    <!-- CABEÇALHO -->
+    <header class="site-header">
+
+        <div class="container header-inner">
+
+            <a href="#inicio" class="brand" aria-label="AutoViva - Página inicial">
+                <span class="brand-mark" aria-hidden="true">A</span>
+                <span>Auto<span class="brand-accent">Viva</span></span>
+            </a>
+
+            <button class="menu-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="menu-principal">
+
+                <span aria-hidden="true">☰</span>
+                Menu
+
+            </button>
+
+            <nav id="menu-principal" aria-label="Navegação principal">
+
+                <ul>
+                    <li><a href="#destaques">Destaques</a></li>
+                    <li><a href="#tecnologia">Tecnologia</a></li>
+                    <li><a href="#seguranca">Segurança</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main id="conteudo">
+
+        <!-- INÍCIO -->
+        <section class="hero" id="inicio">
+
+            <div class="container hero-grid">
+
+                <div class="hero-copy">
+
+                    <p class="eyebrow">
+                        PAIXÃO • INOVAÇÃO • MOVIMENTO
+                    </p>
+
+                    <h1>
+                        O universo dos carros começa
+                        <span>aqui.</span>
+                    </h1>
+
+                    <p class="hero-text">
+                        Explore modelos marcantes, descubra novas
+                        tecnologias e entenda como a mobilidade
+                        está mudando.
+                    </p>
+
+                    <a href="#destaques" class="button button-primary">
+                        Explorar conteúdo →
+                    </a>
+
+                </div>
+
+                <div class="hero-art"
+                    role="img"
+                    aria-label="Ilustração de um carro esportivo vermelho em uma estrada ao pôr do sol">
+
+                    <div class="sun" aria-hidden="true"></div>
+                    <div class="road" aria-hidden="true"></div>
+
+                    <div class="car" aria-hidden="true">
+
+                        <div class="car-window"></div>
+                        <div class="car-body"></div>
+
+                        <div class="wheel wheel-one"></div>
+                        <div class="wheel wheel-two"></div>
+
+                        <div class="light"></div>
+
+                    </div>
+
+                    <span class="art-caption" aria-hidden="true">
+                        DIRIJA O FUTURO
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- DESTAQUES -->
+        <section class="section container"
+            id="destaques"
+            aria-labelledby="destaques-title">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">EM FOCO</p>
+
+                    <h2 id="destaques-title">
+                        Muito além de quatro rodas
+                    </h2>
+
+                </div>
+
+                <p>
+                    Conheça alguns dos assuntos que movem
+                    o mundo automotivo.
+                </p>
+
+            </div>
+
+            <div class="cards">
+
+                <article class="info-card">
+
+                    <div class="card-icon" aria-hidden="true">
+                        🏎️
+                    </div>
+
+                    <p class="card-tag">ESTILO</p>
+
+                    <h3>Design e desempenho</h3>
+
+                    <p>
+                        Linhas marcantes, aerodinâmica e engenharia
+                        trabalham juntas para criar experiências únicas.
+                    </p>
+
+                    <a href="#tecnologia" class="text-link">
+                        Conheça a tecnologia →
+                    </a>
+
+                </article>
+
+                <article class="info-card">
+
+                    <div class="card-icon" aria-hidden="true">
+                        🔋
+                    </div>
+
+                    <p class="card-tag">INOVAÇÃO</p>
+
+                    <h3>Mobilidade elétrica</h3>
+
+                    <p>
+                        Carros elétricos usam motores alimentados
+                        por baterias e ajudam a transformar a mobilidade.
+                    </p>
+
+                    <a href="#tecnologia" class="text-link">
+                        Saiba como funciona →
+                    </a>
+
+                </article>
+
+                <article class="info-card">
+
+                    <div class="card-icon" aria-hidden="true">
+                        🛡️
+                    </div>
+
+                    <p class="card-tag">CUIDADO</p>
+
+                    <h3>Segurança no trânsito</h3>
+
+                    <p>
+                        Manutenção em dia, atenção e respeito
+                        às regras são essenciais em qualquer trajeto.
+                    </p>
+
+                    <a href="#seguranca" class="text-link">
+                        Ver dicas importantes →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- TECNOLOGIA -->
+        <section class="technology"
+            id="tecnologia"
+            aria-labelledby="technology-title">
+
+            <div class="container technology-grid">
+
+                <div class="tech-visual"
+                    role="img"
+                    aria-label="Ilustração abstrata representando tecnologia automotiva">
+
+                    <span class="tech-circle circle-a" aria-hidden="true"></span>
+                    <span class="tech-circle circle-b" aria-hidden="true"></span>
+
+                    <span class="tech-label" aria-hidden="true">
+                        NEXT<br>GEN
+                    </span>
+
+                </div>
+
+                <div class="tech-copy">
+
+                    <p class="eyebrow">
+                        O PRÓXIMO CAPÍTULO
+                    </p>
+
+                    <h2 id="technology-title">
+                        A tecnologia está mudando a estrada.
+                    </h2>
+
+                    <p>
+                        Assistentes de condução, conectividade
+                        e motores mais eficientes estão tornando
+                        os veículos cada vez mais inteligentes.
+                    </p>
+
+                    <ul class="feature-list">
+
+                        <li>
+                            <span aria-hidden="true">✓</span>
+                            Sistemas de auxílio ao motorista
+                        </li>
+
+                        <li>
+                            <span aria-hidden="true">✓</span>
+                            Conectividade e informação em tempo real
+                        </li>
+
+                        <li>
+                            <span aria-hidden="true">✓</span>
+                            Alternativas de propulsão mais eficientes
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SEGURANÇA -->
+        <section class="section container safety-section"
+            id="seguranca"
+            aria-labelledby="safety-title">
+
+            <div class="safety-panel">
+
+                <div>
+
+                    <p class="eyebrow">
+                        ANTES DE PEGAR A ESTRADA
+                    </p>
+
+                    <h2 id="safety-title">
+                        Sua segurança vem primeiro.
+                    </h2>
+
+                    <p>
+                        Pequenas atitudes fazem diferença para você,
+                        seus passageiros e todos ao redor.
+                    </p>
+
+                </div>
+
+                <ul class="safety-list">
+
+                    <li>
+                        Use sempre o cinto de segurança.
+                    </li>
+
+                    <li>
+                        Respeite os limites de velocidade.
+                    </li>
+
+                    <li>
+                        Nunca use o celular enquanto dirige.
+                    </li>
+
+                    <li>
+                        Faça revisões e verifique os pneus.
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- SOBRE -->
+        <section class="about section container"
+            id="sobre"
+            aria-labelledby="about-title">
+
+            <p class="eyebrow">
+                SOBRE A AUTOVIVA
+            </p>
+
+            <h2 id="about-title">
+                Informação para quem gosta de carros.
+            </h2>
+
+            <p>
+                A AutoViva é uma página demonstrativa criada
+                para apresentar o universo automotivo com uma
+                navegação simples, conteúdo direto e recursos
+                de acessibilidade.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+            <a href="#inicio" class="brand footer-brand">
+                <span class="brand-mark" aria-hidden="true">A</span>
+
+                <span>
+                    Auto<span class="brand-accent">Viva</span>
+                </span>
+            </a>
+
+            <p>
+                © <span id="year">2026</span> AutoViva.
+                Projeto educativo.
+            </p>
+
+            <a href="#inicio" class="back-top">
+                Voltar ao topo ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
